@@ -1,0 +1,935 @@
+2022-04-28 19:16:26,287 | INFO | main.py: 420 : main() ::	 Experiment Name: train_repo
+2022-04-28 19:16:26,288 | DEBUG | main.py: 421 : main() ::	 Created Relevant Directories
+2022-04-28 19:16:26,288 | INFO | main.py: 423 : main() ::	 Loading Data...
+2022-04-28 19:16:27,547 | DEBUG | main.py: 429 : main() ::	 Data Loaded...
+2022-04-28 19:16:27,547 | DEBUG | main.py: 431 : main() ::	 Number of Training Examples: 3138
+2022-04-28 19:16:27,547 | DEBUG | main.py: 432 : main() ::	 Number of Testing Examples: 1000
+2022-04-28 19:16:27,547 | DEBUG | main.py: 433 : main() ::	 Extra Numbers: ['0.01', '12.0', '1.0', '100.0', '0.1', '0.5', '3.0', '4.0', '7.0']
+2022-04-28 19:16:27,547 | DEBUG | main.py: 434 : main() ::	 Maximum Number of Numbers: 7
+2022-04-28 19:16:27,547 | INFO | main.py: 437 : main() ::	 Creating Vocab...
+2022-04-28 19:16:28,846 | DEBUG | pre_data.py: 614 : prepare_data() ::	 Indexed 4071 words in input language, 21 words in output
+2022-04-28 19:16:28,917 | WARNING | helper.py: 160 : get_latest_checkpoint() ::	 No Checkpoints Found
+2022-04-28 19:16:28,918 | DEBUG | main.py: 460 : main() ::	 Vocab saved at models/train_repo/vocab1.p
+2022-04-28 19:16:28,918 | DEBUG | main.py: 472 : main() ::	 Config File Saved
+2022-04-28 19:16:28,918 | INFO | main.py: 474 : main() ::	 Initializing Models...
+2022-04-28 19:16:40,793 | DEBUG | main.py: 491 : main() ::	 Models Initialized
+2022-04-28 19:16:40,794 | INFO | main.py: 492 : main() ::	 Initializing Optimizers...
+2022-04-28 19:16:40,795 | DEBUG | main.py: 500 : main() ::	 Optimizers Initialized
+2022-04-28 19:16:40,795 | INFO | main.py: 501 : main() ::	 Initializing Schedulers...
+2022-04-28 19:16:40,795 | DEBUG | main.py: 509 : main() ::	 Schedulers Initialized
+2022-04-28 19:16:40,795 | INFO | main.py: 511 : main() ::	 Loading Models on GPU 0...
+2022-04-28 19:16:44,065 | DEBUG | main.py: 521 : main() ::	 Models loaded on GPU 0
+2022-04-28 19:16:44,065 | INFO | main.py: 529 : main() ::	 Starting Training Procedure
+2022-04-28 19:16:47,368 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 1	
+2022-04-28 19:18:45,525 | DEBUG | main.py: 555 : main() ::	 Training for epoch 0 completed...
+Time Taken: 0h 1m 58s
+2022-04-28 19:18:45,525 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 19:20:12,527 | INFO | helper.py: 86 : save_checkpoint() ::	 Saving Checkpoint at : models/train_repo/model.pt
+2022-04-28 19:20:17,883 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 1	
+ best epoch: 1	
+ train loss epoch: 1.1698642106911608	
+ min train loss: 1.1698642106911608	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.283	
+ equation acc epoch: 0.279	
+ max val acc: 0.283	
+ equation acc: 0.279	
+2022-04-28 19:20:17,883 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 32s
+2022-04-28 19:20:21,597 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 2	
+2022-04-28 19:22:18,817 | DEBUG | main.py: 555 : main() ::	 Training for epoch 1 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 19:22:18,817 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 19:23:37,586 | INFO | helper.py: 86 : save_checkpoint() ::	 Saving Checkpoint at : models/train_repo/model.pt
+2022-04-28 19:23:44,202 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 2	
+ best epoch: 2	
+ train loss epoch: 0.6546516061094577	
+ min train loss: 0.6546516061094577	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.313	
+ equation acc epoch: 0.292	
+ max val acc: 0.313	
+ equation acc: 0.292	
+2022-04-28 19:23:44,202 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 25s
+2022-04-28 19:23:47,782 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 3	
+2022-04-28 19:25:45,427 | DEBUG | main.py: 555 : main() ::	 Training for epoch 2 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 19:25:45,427 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 19:27:03,517 | INFO | helper.py: 86 : save_checkpoint() ::	 Saving Checkpoint at : models/train_repo/model.pt
+2022-04-28 19:27:09,926 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 3	
+ best epoch: 3	
+ train loss epoch: 0.4889594156854329	
+ min train loss: 0.4889594156854329	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.316	
+ equation acc epoch: 0.294	
+ max val acc: 0.316	
+ equation acc: 0.294	
+2022-04-28 19:27:09,926 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 24s
+2022-04-28 19:27:13,500 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 4	
+2022-04-28 19:29:10,809 | DEBUG | main.py: 555 : main() ::	 Training for epoch 3 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 19:29:10,810 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 19:30:33,287 | INFO | helper.py: 86 : save_checkpoint() ::	 Saving Checkpoint at : models/train_repo/model.pt
+2022-04-28 19:30:38,928 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 4	
+ best epoch: 4	
+ train loss epoch: 0.3996241285250008	
+ min train loss: 0.3996241285250008	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.39	
+ equation acc epoch: 0.363	
+ max val acc: 0.39	
+ equation acc: 0.363	
+2022-04-28 19:30:38,928 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 28s
+2022-04-28 19:30:42,553 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 5	
+2022-04-28 19:32:40,067 | DEBUG | main.py: 555 : main() ::	 Training for epoch 4 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 19:32:40,067 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 19:34:01,084 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 5	
+ best epoch: 4	
+ train loss epoch: 0.34855831632243695	
+ min train loss: 0.34855831632243695	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.377	
+ equation acc epoch: 0.351	
+ max val acc: 0.39	
+ equation acc: 0.363	
+2022-04-28 19:34:01,085 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 21s
+2022-04-28 19:34:04,569 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 6	
+2022-04-28 19:36:01,783 | DEBUG | main.py: 555 : main() ::	 Training for epoch 5 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 19:36:01,783 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 19:37:23,470 | INFO | helper.py: 86 : save_checkpoint() ::	 Saving Checkpoint at : models/train_repo/model.pt
+2022-04-28 19:37:29,004 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 6	
+ best epoch: 6	
+ train loss epoch: 0.3178207184124084	
+ min train loss: 0.3178207184124084	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.401	
+ equation acc epoch: 0.358	
+ max val acc: 0.401	
+ equation acc: 0.358	
+2022-04-28 19:37:29,005 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 27s
+2022-04-28 19:37:32,658 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 7	
+2022-04-28 19:39:30,212 | DEBUG | main.py: 555 : main() ::	 Training for epoch 6 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 19:39:30,212 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 19:40:50,571 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 7	
+ best epoch: 6	
+ train loss epoch: 0.29464027561891926	
+ min train loss: 0.29464027561891926	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.399	
+ equation acc epoch: 0.367	
+ max val acc: 0.401	
+ equation acc: 0.358	
+2022-04-28 19:40:50,571 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 20s
+2022-04-28 19:40:54,076 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 8	
+2022-04-28 19:42:51,698 | DEBUG | main.py: 555 : main() ::	 Training for epoch 7 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 19:42:51,698 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 19:44:13,447 | INFO | helper.py: 86 : save_checkpoint() ::	 Saving Checkpoint at : models/train_repo/model.pt
+2022-04-28 19:44:19,163 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 8	
+ best epoch: 8	
+ train loss epoch: 0.26287552957605503	
+ min train loss: 0.26287552957605503	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.418	
+ equation acc epoch: 0.388	
+ max val acc: 0.418	
+ equation acc: 0.388	
+2022-04-28 19:44:19,164 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 27s
+2022-04-28 19:44:22,838 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 9	
+2022-04-28 19:46:20,148 | DEBUG | main.py: 555 : main() ::	 Training for epoch 8 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 19:46:20,148 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 19:47:46,207 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 9	
+ best epoch: 8	
+ train loss epoch: 0.26025476348858906	
+ min train loss: 0.26025476348858906	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.411	
+ equation acc epoch: 0.379	
+ max val acc: 0.418	
+ equation acc: 0.388	
+2022-04-28 19:47:46,207 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 26s
+2022-04-28 19:47:49,719 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 10	
+2022-04-28 19:49:46,829 | DEBUG | main.py: 555 : main() ::	 Training for epoch 9 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 19:49:46,829 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 19:51:10,891 | INFO | helper.py: 86 : save_checkpoint() ::	 Saving Checkpoint at : models/train_repo/model.pt
+2022-04-28 19:51:16,521 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 10	
+ best epoch: 10	
+ train loss epoch: 0.24647681412000313	
+ min train loss: 0.24647681412000313	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.42	
+ equation acc epoch: 0.384	
+ max val acc: 0.42	
+ equation acc: 0.384	
+2022-04-28 19:51:16,521 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 29s
+2022-04-28 19:51:20,164 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 11	
+2022-04-28 19:53:17,613 | DEBUG | main.py: 555 : main() ::	 Training for epoch 10 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 19:53:17,613 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 19:54:50,056 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 11	
+ best epoch: 10	
+ train loss epoch: 0.24099729928654873	
+ min train loss: 0.24099729928654873	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.39	
+ equation acc epoch: 0.355	
+ max val acc: 0.42	
+ equation acc: 0.384	
+2022-04-28 19:54:50,056 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 32s
+2022-04-28 19:54:53,578 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 12	
+2022-04-28 19:56:50,962 | DEBUG | main.py: 555 : main() ::	 Training for epoch 11 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 19:56:50,962 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 19:58:13,772 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 12	
+ best epoch: 10	
+ train loss epoch: 0.22950732968771315	
+ min train loss: 0.22950732968771315	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.418	
+ equation acc epoch: 0.38	
+ max val acc: 0.42	
+ equation acc: 0.384	
+2022-04-28 19:58:13,772 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 22s
+2022-04-28 19:58:17,375 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 13	
+2022-04-28 20:00:15,039 | DEBUG | main.py: 555 : main() ::	 Training for epoch 12 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 20:00:15,039 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:01:36,150 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 13	
+ best epoch: 10	
+ train loss epoch: 0.22767167171918368	
+ min train loss: 0.22767167171918368	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.405	
+ equation acc epoch: 0.377	
+ max val acc: 0.42	
+ equation acc: 0.384	
+2022-04-28 20:01:36,151 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 21s
+2022-04-28 20:01:39,762 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 14	
+2022-04-28 20:03:37,052 | DEBUG | main.py: 555 : main() ::	 Training for epoch 13 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 20:03:37,052 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:05:09,220 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 14	
+ best epoch: 10	
+ train loss epoch: 0.2234328529897025	
+ min train loss: 0.2234328529897025	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.407	
+ equation acc epoch: 0.371	
+ max val acc: 0.42	
+ equation acc: 0.384	
+2022-04-28 20:05:09,220 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 32s
+2022-04-28 20:05:12,864 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 15	
+2022-04-28 20:07:10,318 | DEBUG | main.py: 555 : main() ::	 Training for epoch 14 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 20:07:10,318 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:08:39,515 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 15	
+ best epoch: 10	
+ train loss epoch: 0.19696930828966372	
+ min train loss: 0.19696930828966372	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.386	
+ equation acc epoch: 0.351	
+ max val acc: 0.42	
+ equation acc: 0.384	
+2022-04-28 20:08:39,515 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 29s
+2022-04-28 20:08:43,045 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 16	
+2022-04-28 20:10:40,146 | DEBUG | main.py: 555 : main() ::	 Training for epoch 15 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 20:10:40,147 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:12:00,133 | INFO | helper.py: 86 : save_checkpoint() ::	 Saving Checkpoint at : models/train_repo/model.pt
+2022-04-28 20:12:05,812 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 16	
+ best epoch: 16	
+ train loss epoch: 0.18539430285802788	
+ min train loss: 0.18539430285802788	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.43	
+ equation acc epoch: 0.401	
+ max val acc: 0.43	
+ equation acc: 0.401	
+2022-04-28 20:12:05,812 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 25s
+2022-04-28 20:12:09,467 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 17	
+2022-04-28 20:14:06,866 | DEBUG | main.py: 555 : main() ::	 Training for epoch 16 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 20:14:06,866 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:15:24,615 | INFO | helper.py: 86 : save_checkpoint() ::	 Saving Checkpoint at : models/train_repo/model.pt
+2022-04-28 20:15:30,428 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 17	
+ best epoch: 17	
+ train loss epoch: 0.18736705607876808	
+ min train loss: 0.18539430285802788	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.447	
+ equation acc epoch: 0.409	
+ max val acc: 0.447	
+ equation acc: 0.409	
+2022-04-28 20:15:30,428 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 23s
+2022-04-28 20:15:34,002 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 18	
+2022-04-28 20:17:31,283 | DEBUG | main.py: 555 : main() ::	 Training for epoch 17 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 20:17:31,283 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:19:00,187 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 18	
+ best epoch: 17	
+ train loss epoch: 0.16419665783148438	
+ min train loss: 0.16419665783148438	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.41	
+ equation acc epoch: 0.374	
+ max val acc: 0.447	
+ equation acc: 0.409	
+2022-04-28 20:19:00,188 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 28s
+2022-04-28 20:19:03,778 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 19	
+2022-04-28 20:21:01,276 | DEBUG | main.py: 555 : main() ::	 Training for epoch 18 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 20:21:01,276 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:22:26,646 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 19	
+ best epoch: 17	
+ train loss epoch: 0.1725838024313763	
+ min train loss: 0.16419665783148438	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.401	
+ equation acc epoch: 0.368	
+ max val acc: 0.447	
+ equation acc: 0.409	
+2022-04-28 20:22:26,647 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 25s
+2022-04-28 20:22:30,147 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 20	
+2022-04-28 20:24:27,453 | DEBUG | main.py: 555 : main() ::	 Training for epoch 19 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 20:24:27,453 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:25:53,568 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 20	
+ best epoch: 17	
+ train loss epoch: 0.17187962832898565	
+ min train loss: 0.16419665783148438	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.405	
+ equation acc epoch: 0.374	
+ max val acc: 0.447	
+ equation acc: 0.409	
+2022-04-28 20:25:53,568 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 26s
+2022-04-28 20:25:57,190 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 21	
+2022-04-28 20:27:54,439 | DEBUG | main.py: 555 : main() ::	 Training for epoch 20 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 20:27:54,439 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:29:22,280 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 21	
+ best epoch: 17	
+ train loss epoch: 0.13891745554982346	
+ min train loss: 0.13891745554982346	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.407	
+ equation acc epoch: 0.363	
+ max val acc: 0.447	
+ equation acc: 0.409	
+2022-04-28 20:29:22,280 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 27s
+2022-04-28 20:29:25,780 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 22	
+2022-04-28 20:31:23,095 | DEBUG | main.py: 555 : main() ::	 Training for epoch 21 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 20:31:23,096 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:32:48,469 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 22	
+ best epoch: 17	
+ train loss epoch: 0.11434552095576875	
+ min train loss: 0.11434552095576875	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.43	
+ equation acc epoch: 0.392	
+ max val acc: 0.447	
+ equation acc: 0.409	
+2022-04-28 20:32:48,469 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 25s
+2022-04-28 20:32:52,023 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 23	
+2022-04-28 20:34:49,315 | DEBUG | main.py: 555 : main() ::	 Training for epoch 22 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 20:34:49,315 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:36:09,762 | INFO | helper.py: 86 : save_checkpoint() ::	 Saving Checkpoint at : models/train_repo/model.pt
+2022-04-28 20:36:15,423 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 23	
+ best epoch: 23	
+ train loss epoch: 0.10306875523163181	
+ min train loss: 0.10306875523163181	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.45	
+ equation acc epoch: 0.411	
+ max val acc: 0.45	
+ equation acc: 0.411	
+2022-04-28 20:36:15,423 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 26s
+2022-04-28 20:36:19,039 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 24	
+2022-04-28 20:38:17,537 | DEBUG | main.py: 555 : main() ::	 Training for epoch 23 completed...
+Time Taken: 0h 1m 58s
+2022-04-28 20:38:17,537 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:39:36,636 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 24	
+ best epoch: 23	
+ train loss epoch: 0.09867144053068448	
+ min train loss: 0.09867144053068448	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.441	
+ equation acc epoch: 0.403	
+ max val acc: 0.45	
+ equation acc: 0.411	
+2022-04-28 20:39:36,636 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 19s
+2022-04-28 20:39:40,208 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 25	
+2022-04-28 20:41:38,308 | DEBUG | main.py: 555 : main() ::	 Training for epoch 24 completed...
+Time Taken: 0h 1m 58s
+2022-04-28 20:41:38,308 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:43:01,299 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 25	
+ best epoch: 23	
+ train loss epoch: 0.09327041023568891	
+ min train loss: 0.09327041023568891	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.417	
+ equation acc epoch: 0.383	
+ max val acc: 0.45	
+ equation acc: 0.411	
+2022-04-28 20:43:01,299 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 22s
+2022-04-28 20:43:04,804 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 26	
+2022-04-28 20:45:02,929 | DEBUG | main.py: 555 : main() ::	 Training for epoch 25 completed...
+Time Taken: 0h 1m 58s
+2022-04-28 20:45:02,929 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:46:19,733 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 26	
+ best epoch: 23	
+ train loss epoch: 0.09968340795359197	
+ min train loss: 0.09327041023568891	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.45	
+ equation acc epoch: 0.419	
+ max val acc: 0.45	
+ equation acc: 0.411	
+2022-04-28 20:46:19,733 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 16s
+2022-04-28 20:46:23,293 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 27	
+2022-04-28 20:48:21,284 | DEBUG | main.py: 555 : main() ::	 Training for epoch 26 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 20:48:21,285 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:49:44,324 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 27	
+ best epoch: 23	
+ train loss epoch: 0.08960331402409172	
+ min train loss: 0.08960331402409172	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.444	
+ equation acc epoch: 0.411	
+ max val acc: 0.45	
+ equation acc: 0.411	
+2022-04-28 20:49:44,325 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 23s
+2022-04-28 20:49:47,813 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 28	
+2022-04-28 20:51:45,380 | DEBUG | main.py: 555 : main() ::	 Training for epoch 27 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 20:51:45,380 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:53:07,860 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 28	
+ best epoch: 23	
+ train loss epoch: 0.08396305077968155	
+ min train loss: 0.08396305077968155	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.449	
+ equation acc epoch: 0.41	
+ max val acc: 0.45	
+ equation acc: 0.411	
+2022-04-28 20:53:07,860 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 22s
+2022-04-28 20:53:11,450 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 29	
+2022-04-28 20:55:09,037 | DEBUG | main.py: 555 : main() ::	 Training for epoch 28 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 20:55:09,037 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:56:32,822 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 29	
+ best epoch: 23	
+ train loss epoch: 0.07667041886017276	
+ min train loss: 0.07667041886017276	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.435	
+ equation acc epoch: 0.398	
+ max val acc: 0.45	
+ equation acc: 0.411	
+2022-04-28 20:56:32,822 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 23s
+2022-04-28 20:56:36,335 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 30	
+2022-04-28 20:58:34,237 | DEBUG | main.py: 555 : main() ::	 Training for epoch 29 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 20:58:34,237 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 20:59:56,871 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 30	
+ best epoch: 23	
+ train loss epoch: 0.08586494035932352	
+ min train loss: 0.07667041886017276	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.421	
+ equation acc epoch: 0.389	
+ max val acc: 0.45	
+ equation acc: 0.411	
+2022-04-28 20:59:56,871 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 22s
+2022-04-28 21:00:00,499 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 31	
+2022-04-28 21:01:58,690 | DEBUG | main.py: 555 : main() ::	 Training for epoch 30 completed...
+Time Taken: 0h 1m 58s
+2022-04-28 21:01:58,690 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 21:03:21,184 | INFO | helper.py: 86 : save_checkpoint() ::	 Saving Checkpoint at : models/train_repo/model.pt
+2022-04-28 21:03:27,332 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 31	
+ best epoch: 31	
+ train loss epoch: 0.07820000148434002	
+ min train loss: 0.07667041886017276	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.456	
+ equation acc epoch: 0.424	
+ max val acc: 0.456	
+ equation acc: 0.424	
+2022-04-28 21:03:27,338 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 28s
+2022-04-28 21:03:30,893 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 32	
+2022-04-28 21:05:29,238 | DEBUG | main.py: 555 : main() ::	 Training for epoch 31 completed...
+Time Taken: 0h 1m 58s
+2022-04-28 21:05:29,238 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 21:06:48,425 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 32	
+ best epoch: 31	
+ train loss epoch: 0.07729096689783439	
+ min train loss: 0.07667041886017276	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.451	
+ equation acc epoch: 0.418	
+ max val acc: 0.456	
+ equation acc: 0.424	
+2022-04-28 21:06:48,425 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 19s
+2022-04-28 21:06:51,997 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 33	
+2022-04-28 21:08:49,843 | DEBUG | main.py: 555 : main() ::	 Training for epoch 32 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 21:08:49,843 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 21:10:12,693 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 33	
+ best epoch: 31	
+ train loss epoch: 0.07414352212370191	
+ min train loss: 0.07414352212370191	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.43	
+ equation acc epoch: 0.396	
+ max val acc: 0.456	
+ equation acc: 0.424	
+2022-04-28 21:10:12,693 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 22s
+2022-04-28 21:10:16,218 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 34	
+2022-04-28 21:12:13,943 | DEBUG | main.py: 555 : main() ::	 Training for epoch 33 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 21:12:13,943 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 21:13:44,098 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 34	
+ best epoch: 31	
+ train loss epoch: 0.07593391136960637	
+ min train loss: 0.07414352212370191	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.413	
+ equation acc epoch: 0.375	
+ max val acc: 0.456	
+ equation acc: 0.424	
+2022-04-28 21:13:44,099 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 30s
+2022-04-28 21:13:47,678 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 35	
+2022-04-28 21:15:45,394 | DEBUG | main.py: 555 : main() ::	 Training for epoch 34 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 21:15:45,394 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 21:17:06,387 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 35	
+ best epoch: 31	
+ train loss epoch: 0.07629065786141181	
+ min train loss: 0.07414352212370191	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.435	
+ equation acc epoch: 0.404	
+ max val acc: 0.456	
+ equation acc: 0.424	
+2022-04-28 21:17:06,387 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 20s
+2022-04-28 21:17:09,966 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 36	
+2022-04-28 21:19:07,899 | DEBUG | main.py: 555 : main() ::	 Training for epoch 35 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 21:19:07,899 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 21:20:32,514 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 36	
+ best epoch: 31	
+ train loss epoch: 0.0646099170146933	
+ min train loss: 0.0646099170146933	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.429	
+ equation acc epoch: 0.4	
+ max val acc: 0.456	
+ equation acc: 0.424	
+2022-04-28 21:20:32,515 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 24s
+2022-04-28 21:20:35,925 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 37	
+2022-04-28 21:22:34,145 | DEBUG | main.py: 555 : main() ::	 Training for epoch 36 completed...
+Time Taken: 0h 1m 58s
+2022-04-28 21:22:34,145 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 21:23:52,215 | INFO | helper.py: 86 : save_checkpoint() ::	 Saving Checkpoint at : models/train_repo/model.pt
+2022-04-28 21:23:57,808 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 37	
+ best epoch: 37	
+ train loss epoch: 0.05710213435758983	
+ min train loss: 0.05710213435758983	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.459	
+ equation acc epoch: 0.429	
+ max val acc: 0.459	
+ equation acc: 0.429	
+2022-04-28 21:23:57,808 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 23s
+2022-04-28 21:24:01,385 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 38	
+2022-04-28 21:25:59,054 | DEBUG | main.py: 555 : main() ::	 Training for epoch 37 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 21:25:59,054 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 21:27:23,186 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 38	
+ best epoch: 37	
+ train loss epoch: 0.060291938741280256	
+ min train loss: 0.05710213435758983	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.411	
+ equation acc epoch: 0.38	
+ max val acc: 0.459	
+ equation acc: 0.429	
+2022-04-28 21:27:23,187 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 24s
+2022-04-28 21:27:26,738 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 39	
+2022-04-28 21:29:24,601 | DEBUG | main.py: 555 : main() ::	 Training for epoch 38 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 21:29:24,601 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 21:30:51,716 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 39	
+ best epoch: 37	
+ train loss epoch: 0.06711085987359974	
+ min train loss: 0.05710213435758983	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.388	
+ equation acc epoch: 0.357	
+ max val acc: 0.459	
+ equation acc: 0.429	
+2022-04-28 21:30:51,716 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 27s
+2022-04-28 21:30:55,246 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 40	
+2022-04-28 21:32:52,927 | DEBUG | main.py: 555 : main() ::	 Training for epoch 39 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 21:32:52,927 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 21:34:13,111 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 40	
+ best epoch: 37	
+ train loss epoch: 0.06572503719898593	
+ min train loss: 0.05710213435758983	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.434	
+ equation acc epoch: 0.398	
+ max val acc: 0.459	
+ equation acc: 0.429	
+2022-04-28 21:34:13,111 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 20s
+2022-04-28 21:34:16,660 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 41	
+2022-04-28 21:36:14,941 | DEBUG | main.py: 555 : main() ::	 Training for epoch 40 completed...
+Time Taken: 0h 1m 58s
+2022-04-28 21:36:14,941 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 21:37:40,055 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 41	
+ best epoch: 37	
+ train loss epoch: 0.04584500558089889	
+ min train loss: 0.04584500558089889	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.437	
+ equation acc epoch: 0.403	
+ max val acc: 0.459	
+ equation acc: 0.429	
+2022-04-28 21:37:40,055 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 25s
+2022-04-28 21:37:43,613 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 42	
+2022-04-28 21:39:41,768 | DEBUG | main.py: 555 : main() ::	 Training for epoch 41 completed...
+Time Taken: 0h 1m 58s
+2022-04-28 21:39:41,768 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 21:41:05,324 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 42	
+ best epoch: 37	
+ train loss epoch: 0.03943902635106293	
+ min train loss: 0.03943902635106293	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.435	
+ equation acc epoch: 0.401	
+ max val acc: 0.459	
+ equation acc: 0.429	
+2022-04-28 21:41:05,324 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 23s
+2022-04-28 21:41:08,922 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 43	
+2022-04-28 21:43:07,088 | DEBUG | main.py: 555 : main() ::	 Training for epoch 42 completed...
+Time Taken: 0h 1m 58s
+2022-04-28 21:43:07,089 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 21:44:31,536 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 43	
+ best epoch: 37	
+ train loss epoch: 0.03749294557975091	
+ min train loss: 0.03749294557975091	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.421	
+ equation acc epoch: 0.389	
+ max val acc: 0.459	
+ equation acc: 0.429	
+2022-04-28 21:44:31,537 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 24s
+2022-04-28 21:44:35,031 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 44	
+2022-04-28 21:46:32,460 | DEBUG | main.py: 555 : main() ::	 Training for epoch 43 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 21:46:32,460 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 21:47:52,163 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 44	
+ best epoch: 37	
+ train loss epoch: 0.032645842715579146	
+ min train loss: 0.032645842715579146	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.429	
+ equation acc epoch: 0.396	
+ max val acc: 0.459	
+ equation acc: 0.429	
+2022-04-28 21:47:52,163 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 19s
+2022-04-28 21:47:55,728 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 45	
+2022-04-28 21:49:53,544 | DEBUG | main.py: 555 : main() ::	 Training for epoch 44 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 21:49:53,544 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 21:51:15,572 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 45	
+ best epoch: 37	
+ train loss epoch: 0.032984616428627885	
+ min train loss: 0.032645842715579146	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.433	
+ equation acc epoch: 0.398	
+ max val acc: 0.459	
+ equation acc: 0.429	
+2022-04-28 21:51:15,572 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 22s
+2022-04-28 21:51:19,059 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 46	
+2022-04-28 21:53:16,522 | DEBUG | main.py: 555 : main() ::	 Training for epoch 45 completed...
+Time Taken: 0h 1m 57s
+2022-04-28 21:53:16,522 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 21:54:35,593 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 46	
+ best epoch: 37	
+ train loss epoch: 0.03130911025711876	
+ min train loss: 0.03130911025711876	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.437	
+ equation acc epoch: 0.404	
+ max val acc: 0.459	
+ equation acc: 0.429	
+2022-04-28 21:54:35,593 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 19s
+2022-04-28 21:54:39,104 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 47	
+2022-04-28 21:56:35,639 | DEBUG | main.py: 555 : main() ::	 Training for epoch 46 completed...
+Time Taken: 0h 1m 56s
+2022-04-28 21:56:35,639 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 21:57:54,277 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 47	
+ best epoch: 37	
+ train loss epoch: 0.032519986499777054	
+ min train loss: 0.03130911025711876	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.445	
+ equation acc epoch: 0.41	
+ max val acc: 0.459	
+ equation acc: 0.429	
+2022-04-28 21:57:54,278 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 18s
+2022-04-28 21:57:57,801 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 48	
+2022-04-28 21:59:54,080 | DEBUG | main.py: 555 : main() ::	 Training for epoch 47 completed...
+Time Taken: 0h 1m 56s
+2022-04-28 21:59:54,080 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 22:01:12,307 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 48	
+ best epoch: 37	
+ train loss epoch: 0.03144624217704552	
+ min train loss: 0.03130911025711876	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.433	
+ equation acc epoch: 0.401	
+ max val acc: 0.459	
+ equation acc: 0.429	
+2022-04-28 22:01:12,307 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 18s
+2022-04-28 22:01:15,833 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 49	
+2022-04-28 22:03:11,664 | DEBUG | main.py: 555 : main() ::	 Training for epoch 48 completed...
+Time Taken: 0h 1m 55s
+2022-04-28 22:03:11,665 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 22:04:33,139 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 49	
+ best epoch: 37	
+ train loss epoch: 0.029431194341877024	
+ min train loss: 0.029431194341877024	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.431	
+ equation acc epoch: 0.401	
+ max val acc: 0.459	
+ equation acc: 0.429	
+2022-04-28 22:04:33,140 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 21s
+2022-04-28 22:04:36,642 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 50	
+2022-04-28 22:06:32,427 | DEBUG | main.py: 555 : main() ::	 Training for epoch 49 completed...
+Time Taken: 0h 1m 55s
+2022-04-28 22:06:32,427 | INFO | main.py: 582 : main() ::	 Starting Validation
+2022-04-28 22:07:53,663 | INFO | logger.py: 33 : print_log() ::	 
+ Epoch: 50	
+ best epoch: 37	
+ train loss epoch: 0.02796835997650289	
+ min train loss: 0.02796835997650289	
+ train acc epoch: 0.0	
+ max train acc: 0.0	
+ val acc epoch: 0.433	
+ equation acc epoch: 0.401	
+ max val acc: 0.459	
+ equation acc: 0.429	
+2022-04-28 22:07:53,663 | DEBUG | main.py: 691 : main() ::	 Validation Completed...
+Time Taken: 0h 1m 21s
+2022-04-28 22:07:53,664 | INFO | main.py: 695 : main() ::	 Scores saved at ./out/val_results_mawps-asdiv-a_svamp.json

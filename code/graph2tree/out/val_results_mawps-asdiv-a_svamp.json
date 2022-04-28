@@ -1,0 +1,22 @@
+{
+    "train_repo": {
+        "run name": "train_repo",
+        "max val acc": "0.459",
+        "equation acc": "0.429",
+        "max train acc": "0.0",
+        "min train loss": "0.02796835997650289",
+        "best epoch": "37",
+        "epochs": 50,
+        "dataset": "mawps-asdiv-a_svamp",
+        "embedding": "roberta",
+        "embedding_size": 768,
+        "embedding_lr": 1e-05,
+        "freeze_emb": false,
+        "cell_type": "lstm",
+        "hidden_size": 384,
+        "depth": 4,
+        "lr": 0.0008,
+        "batch_size": 8,
+        "dropout": 0.5
+    }
+}
